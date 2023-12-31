@@ -1302,10 +1302,10 @@ audio {
 
 }
 .modal{
-/* 	position: absolute; */
-/* 	height: 100vh; */
+	position: absolute;
+	height: 100vh;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-25%);
 }
 .cake-cover {
 	margin-top: 50px;
