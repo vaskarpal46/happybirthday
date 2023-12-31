@@ -6,14 +6,25 @@ $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
+				 le= (vw*0)-15;
+		 mild = (vw*1)-50;
+		 ed= (vw*2)-(vw*2)/5;
+		 
+		 
+
+		 nd= (le+mild)/3;
+		 rd= (nd+mild)/2;
+		 sed =(ed-mild)*1.5;
+		 th= (sed+mild)/2; 
+
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
-			$('#b11').animate({top:240, left: vw*0-15},500);
-		$('#b77').animate({top:240, left: vw*0+36},500);
-		$('#b33').animate({top:240, left: vw*0+87},500);
-		$('#b44').animate({top:240, left: vw*1-50},500);
-		$('#b55').animate({top:240, left: vw*2-187},500);
-		$('#b66').animate({top:240, left: vw*2-136},500);
-		$('#b22').animate({top:240, left: vw*2-85},500);
+		$('#b11').animate({top:240, left: le},500);
+		$('#b77').animate({top:240, left: nd-7},500); 
+		$('#b33').animate({top:240, left: rd-4},500);
+		$('#b44').animate({top:240, left: mild},500);
+		$('#b55').animate({top:240, left: th},500);
+		$('#b66').animate({top:240, left: sed},500);
+		$('#b22').animate({top:240, left: ed},500);
 		});
 
 	$('#turn_on').click(function(){
@@ -142,6 +153,16 @@ $('document').ready(function(){
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 		//  alert(vw);
+	 le= (vw*0)-15;
+		 mild = (vw*1)-50;
+		 ed= (vw*2)-(vw*2)/5;
+		 
+		 
+
+		 nd= (le+mild)/3;
+		 rd= (nd+mild)/2;
+		 sed =(ed-mild)*1.5;
+		 th= (sed+mild)/2; 
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
@@ -151,13 +172,13 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: vw*0-15},500);
-		$('#b77').animate({top:240, left: vw*0+36},500);
-		$('#b33').animate({top:240, left: vw*0+87},500);
-		$('#b44').animate({top:240, left: vw*1-50},500);
-		$('#b55').animate({top:240, left: vw*2-187},500);
-		$('#b66').animate({top:240, left: vw*2-136},500);
-		$('#b22').animate({top:240, left: vw*2-85},500);
+		$('#b11').animate({top:240, left: le},500);
+		$('#b77').animate({top:240, left: nd-7},500); 
+		$('#b33').animate({top:240, left: rd-4},500);
+		$('#b44').animate({top:240, left: mild},500);
+		$('#b55').animate({top:240, left: th},500);
+		$('#b66').animate({top:240, left: sed},500);
+		$('#b22').animate({top:240, left: ed},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
