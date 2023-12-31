@@ -1305,6 +1305,7 @@ audio {
 /* 	position: absolute; */
 /* 	height: 100vh; */
 	top: 50%;
+	    bottom: unset;
 	transform: translateY(-50%);
 }
 .cake-cover {
