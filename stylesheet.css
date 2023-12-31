@@ -1302,7 +1302,7 @@ audio {
 
 }
 .modal{
-	position: absolute;
+/* 	position: absolute; */
 /* 	height: 100vh; */
 	top: 50%;
 	transform: translateY(-50%);
