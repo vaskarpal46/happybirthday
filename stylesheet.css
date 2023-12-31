@@ -1100,10 +1100,12 @@ audio {
 	opacity: .8;
 	z-index: 99;
 	width: 100px;
+	/* scale: .5; */
 	height: 183px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }
+
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
@@ -1372,6 +1374,14 @@ outline: none !important;
 		box-shadow: 0 0 8px #d80500, 0 0 14px #d80500, 0 0 25px #d80500;
 	}
 	
+	
+
+	@media only screen and (max-width:567px) {
+.balloons{
+	scale: .5;
+}
+		
+	}
 
 
     /*controlling tablet width*/
