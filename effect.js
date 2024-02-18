@@ -14,7 +14,7 @@ $('document').ready(function () {
 
 		nd = (le + mild) / 3;
 		rd = (nd + mild) / 2;
-		sed = (ed - mild) * 2;
+		sed = (ed - mild) * 1.6;
 		th = (sed + mild) / 2;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
@@ -23,7 +23,7 @@ $('document').ready(function () {
 		$('#b33').animate({ top: 240, left: rd - 4 }, 500);
 		$('#b44').animate({ top: 240, left: mild }, 500);
 		$('#b55').animate({ top: 240, left: th }, 500);
-		$('#b66').animate({ top: 240, left: sed }, 500);
+		$('#b66').animate({ top: 240, left: sed + 7}, 500);
 		$('#b22').animate({ top: 240, left: ed }, 500);
 	});
 
@@ -161,7 +161,7 @@ $('document').ready(function () {
 
 		nd = (le + mild) / 3;
 		rd = (nd + mild) / 2;
-		sed = (ed - mild) * 2;
+		sed = (ed - mild) * 1.6;
 		th = (sed + mild) / 2;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
@@ -177,7 +177,7 @@ $('document').ready(function () {
 		$('#b33').animate({ top: 240, left: rd - 4 }, 500);
 		$('#b44').animate({ top: 240, left: mild }, 500);
 		$('#b55').animate({ top: 240, left: th }, 500);
-		$('#b66').animate({ top: 240, left: sed }, 500);
+		$('#b66').animate({ top: 240, left: sed + 7 }, 500);
 		$('#b22').animate({ top: 240, left: ed }, 500);
 		$('.balloons').css('opacity', '0.9');
 		$('.balloons h2').fadeIn(3000);
