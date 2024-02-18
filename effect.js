@@ -14,7 +14,7 @@ $('document').ready(function () {
 
 		nd = (le + mild) / 3;
 		rd = (nd + mild) / 2;
-		sed = (ed - mild) * 1.5;
+		sed = (ed - mild) * 2;
 		th = (sed + mild) / 2;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
@@ -161,7 +161,7 @@ $('document').ready(function () {
 
 		nd = (le + mild) / 3;
 		rd = (nd + mild) / 2;
-		sed = (ed - mild) * 1.5;
+		sed = (ed - mild) * 2;
 		th = (sed + mild) / 2;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
